@@ -18,7 +18,7 @@
   $.widget.bridge('uibutton', $.ui.button)
 </script>
 <!-- moment -->
-<script src="plugins/moment/moment.min.js"></script>
+<!-- <script src="plugins/moment/moment.min.js"></script> -->
 <!-- Tempusdominus Bootstrap 4 -->
 <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
 <!-- overlayScrollbars -->
