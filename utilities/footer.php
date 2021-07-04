@@ -6,7 +6,7 @@
     </div>
   </footer>
 <!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
+<!-- <script src="plugins/jquery/jquery.min.js"></script>-->
 <!-- Bootstrap 4 -->
 <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- Select2 -->
@@ -20,7 +20,7 @@
 <!-- moment -->
 <!-- <script src="plugins/moment/moment.min.js"></script> -->
 <!-- Tempusdominus Bootstrap 4 -->
-<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>-->
 <!-- overlayScrollbars -->
 <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- custom-file-input -->
@@ -36,4 +36,22 @@
 <script>document.title='<?php echo $title?> | Black & White';</script>
 <script src="plugins/js/customdesign.js"></script>
 <script src="plugins/jquery/core.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#manga-table').DataTable({
+        "language": {
+          "emptyTable": "No manga found in the database.",
+          "zeroRecords": "No matching manga found in the database."
+        }
+    });
+} );
+$(document).ready(function() {
+    // $('.select2').select2();
+    var select2=$('.select2').select2();
+     //select2.data('select2').$selection.css('height', '38px');
+
+});
+
+
+</script>
 
