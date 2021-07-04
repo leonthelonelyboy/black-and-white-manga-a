@@ -35,7 +35,7 @@
 <script src="plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
 <script>document.title='<?php echo $title?> | Black & White';</script>
 <script src="plugins/js/customdesign.js"></script>
-<script src="plugins/jquery/core.js"></script>
+<!-- <script src="plugins/jquery/core.js"></script> -->
 <script type="text/javascript">
 $(document).ready(function() {
     $('#manga-table').DataTable({
