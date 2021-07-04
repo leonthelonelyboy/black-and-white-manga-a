@@ -25,8 +25,6 @@ include "helper.php";
     <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
     <!-- Daterange picker -->
     <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
-    <!-- summernote -->
-    <link rel="stylesheet" href="plugins/summernote/summernote-bs4.css">
     <!-- Google Font: Source Sans Pro -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet"> -->
 
@@ -44,21 +42,4 @@ include "helper.php";
     <link rel="stylesheet" type="text/css" href="plugins/css/customdesign.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#manga-table').DataTable({
-        "language": {
-          "emptyTable": "No manga found in the database.",
-          "zeroRecords": "No matching manga found in the database."
-        }
-    });
-} );
-$(document).ready(function() {
-    // $('.select2').select2();
-    var select2=$('.select2').select2();
-     //select2.data('select2').$selection.css('height', '38px');
 
-});
-
-
-</script>
